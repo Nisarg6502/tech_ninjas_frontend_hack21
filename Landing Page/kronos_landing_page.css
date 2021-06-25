@@ -1,0 +1,16 @@
+.navbar{
+    background-color: transparent;
+}
+.navbar:hover{
+    background-color: white;
+
+}
+.btn1:hover{
+    color: blueviolet;
+}
+.bg1{
+    background-color: transparent;
+}
+body{
+    background-color: tomato;
+}
