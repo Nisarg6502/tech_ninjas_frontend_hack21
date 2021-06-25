@@ -1,0 +1,39 @@
+.navbar{
+    background-color: transparent;
+}
+.navbar:hover{
+    background-color: white;
+
+}
+.btn1:hover{
+    color: blueviolet;
+}
+.bg1{
+    background-color: transparent;
+}
+/* body{
+    background-color: tomato;
+} */
+
+.share {
+    font-size: large;
+    text-align: center;
+    font-family: Arbutus;
+    background-color: #F7F7F7;
+}
+
+.btn {
+    margin: 7px;
+    border: none;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.footer {
+    background-color: #212121;
+    color: white;
+}
+
+.links {
+    text-align: center;
+}
