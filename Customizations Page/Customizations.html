@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customizations</title>
-    <script src="script.js" defer></script>
+    <title>Customisations</title>
+    <script src="Customizations.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" />
@@ -14,9 +14,9 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--Arbutus Font-->
     <link href='https://fonts.googleapis.com/css?family=Arbutus' rel='stylesheet'>
-    <link rel="stylesheet" href="kronos_Customizations_page.css" >
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <script src="Customizations.js" defer></script>
+    <link rel="stylesheet" href="kronos_Customizations_page.css"
+</head>
 
 <body>
 
@@ -37,7 +37,7 @@
                             href="#">Customization</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mt-1" style="font-size: 1.5rem;" aria-current="page" href="../Watches Page/Watches_Page.html">Watches</a>
+                        <a class="nav-link mt-1" style="font-size: 1.5rem;" aria-current="page" href="#">Watches</a>
                     </li>
                 </ul>
                 <!--Login-->
@@ -324,9 +324,13 @@
         <!--Selecting customisations-->
 
         <section class="text-gray-600 body-font">
-            <div class="container px-5 py-24 mx-auto flex flex-wrap d-flex justify-content-center ">
+            <div class="container my-20 px-5 py-24 mx-auto flex flex-wrap d-flex justify-content-center "
+                style="background-color: rgb(241, 241, 241);border-radius: 15px; box-shadow:10px 10px 10px 10px;">
 
                 <center>
+
+                    <h1 class="border-bottom pb-2" style="font-size:50px; margin-bottom:60px ; color:black">Customise your watch</h1>
+
                     <div class="flex relative pb-12">
                         <div class="h-full w-10 absolute inset-0 flex items-center justify-end">
                             <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -343,7 +347,8 @@
                             <p class="leading-relaxed d-flex justify-content-start">VHS cornhole pop-up, try-hard 8-bit
                                 iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                         </div>
-                        <button class="btn btn-primary d-flex justify-content-xl-end" id="ft" onclick="add1()" style="margin: 20px;">Add</button>
+                        <button class="btn btn-primary d-flex justify-content-xl-end" id="ft" onclick="add1()"
+                            style="margin: 20px;">Add</button>
                     </div>
 
                     <div class="flex relative pb-12">
@@ -361,7 +366,8 @@
                             <p class="leading-relaxed d-flex justify-content-start">Vice migas literally kitsch +1 pok
                                 pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p>
                         </div>
-                        <button class="btn btn-primary d-flex justify-content-xl-end" id="hc" onclick="add2()" style="margin: 20px;">Add</button>
+                        <button class="btn btn-primary d-flex justify-content-xl-end" id="hc" onclick="add2()"
+                            style="margin: 20px;">Add</button>
                     </div>
 
                     <div class="flex relative pb-12">
@@ -379,7 +385,8 @@
                             <p class="leading-relaxed d-flex justify-content-start">Coloring book nar whal glossier
                                 master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p>
                         </div>
-                        <button class="btn btn-primary d-flex justify-content-xl-end" id="sm" onclick="add3()" style="margin: 20px;">Add</button>
+                        <button class="btn btn-primary d-flex justify-content-xl-end" id="sm" onclick="add3()"
+                            style="margin: 20px;">Add</button>
                     </div>
 
                     <div class="flex relative pb-12">
@@ -398,13 +405,14 @@
                                 iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
 
                         </div>
-                        <button class="btn btn-primary d-flex justify-content-xl-end" id="ba" onclick="add4()" style="margin: 20px;">Add</button>
+                        <button class="btn btn-primary d-flex justify-content-xl-end" id="ba" onclick="add4()"
+                            style="margin: 20px;">Add</button>
                     </div>
 
                     <div class="flex relative">
                         <div
                             class="flex-shrink-0 w-20 h-20 rounded-full bg-indigo-600 inline-flex items-center justify-center text-white relative z-10">
-                            <i class="fas fa-hands-helping" style="font-size: 40px;"></i>
+                            <i class="fas fa-microphone" style="font-size: 40px;"></i>
                         </div>
                         <div class="flex-grow pl-4">
                             <h2
@@ -413,25 +421,29 @@
                             <p class="leading-relaxed d-flex justify-content-start">Pitchfork ugh tattooed scenester
                                 echo park gastropub whatever cold-pressed retro.</p>
                         </div>
-                        <button class="btn btn-primary d-flex justify-content-xl-end" id="va" onclick="add5()" style="margin: 20px;">Add</button>
+                        <button class="btn btn-primary d-flex justify-content-xl-end" id="va" onclick="add5()"
+                            style="margin: 20px;">Add</button>
                     </div>
 
+                    <!--Display-->
+                    <div class="container">
+                        <h2 style="font-size:40px; margin:30px ; color:black">Features Selected</h2>
+                        <p id="display" style="background-color: white; margin: 30px;padding-bottom: 20px; font-size: 30px; padding-bottom: 50px;"></p>
+                    </div>
+
+
+                    <button class="btn btn-primary" id="submit" onclick="reset()">View Cart</button>
+                    <button class="btn btn-primary" id="reset" onclick="reset()">Reset</button>
                 </center>
             </div>
 
         </section>
 
-        <!--Display-->
-        <div class="container">
-            <p id="display"></p>
-        </div>
+
+
     </div>
 
-
-
-
-    
-
+    <!--SHARE THIS PAGE AND FOOTER-->
     <div class="main">
         <div class="share">
             <br><br>
