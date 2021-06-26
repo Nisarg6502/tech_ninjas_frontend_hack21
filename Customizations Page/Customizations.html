@@ -15,6 +15,8 @@
     <!--Arbutus Font-->
     <link href='https://fonts.googleapis.com/css?family=Arbutus' rel='stylesheet'>
     <link rel="stylesheet" href="kronos_Customizations_page.css" >
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="Customizations.js" defer></script>
 
 <body>
 
@@ -318,7 +320,117 @@
                 </div>
             </div>
         </div>
+
+        <!--Selecting customisations-->
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap d-flex justify-content-center ">
+
+                <center>
+                    <div class="flex relative pb-12">
+                        <div class="h-full w-10 absolute inset-0 flex items-center justify-end">
+                            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                        </div>
+                        <div
+                            class="flex-shrink-0 w-20 h-20 rounded-full bg-black inline-flex items-center justify-center text-white relative z-10">
+
+                            <i class="fas fa-running" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="flex-grow pl-4">
+                            <h2
+                                class="font-medium title-font text-3xl text-gray-900 mb-1 tracking-wider d-flex justify-content-start">
+                                Fitness Tracker</h2>
+                            <p class="leading-relaxed d-flex justify-content-start">VHS cornhole pop-up, try-hard 8-bit
+                                iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                        </div>
+                        <button class="btn btn-primary d-flex justify-content-xl-end" id="ft" onclick="add1()" style="margin: 20px;">Add</button>
+                    </div>
+
+                    <div class="flex relative pb-12">
+                        <div class="h-full w-10 absolute inset-0 flex items-center justify-end">
+                            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                        </div>
+                        <div
+                            class="flex-shrink-0 w-20 h-20 rounded-full bg-red-600 inline-flex items-center justify-center text-white relative z-10">
+                            <i class="fas fa-heartbeat" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="flex-grow pl-4">
+                            <h2
+                                class="font-medium title-font text-3xl text-gray-900 mb-1 tracking-wider d-flex justify-content-start">
+                                Health Care</h2>
+                            <p class="leading-relaxed d-flex justify-content-start">Vice migas literally kitsch +1 pok
+                                pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p>
+                        </div>
+                        <button class="btn btn-primary d-flex justify-content-xl-end" id="hc" onclick="add2()" style="margin: 20px;">Add</button>
+                    </div>
+
+                    <div class="flex relative pb-12">
+                        <div class="h-full w-10 absolute inset-0 flex items-center justify-end">
+                            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                        </div>
+                        <div
+                            class="flex-shrink-0 w-20 h-20 rounded-full bg-yellow-400 inline-flex items-center justify-center text-white relative z-10">
+                            <i class="fas fa-business-time" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="flex-grow pl-4">
+                            <h2
+                                class="font-medium title-font text-3xl text-gray-900 mb-1 tracking-wider d-flex justify-content-start">
+                                Schedule module</h2>
+                            <p class="leading-relaxed d-flex justify-content-start">Coloring book nar whal glossier
+                                master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p>
+                        </div>
+                        <button class="btn btn-primary d-flex justify-content-xl-end" id="sm" onclick="add3()" style="margin: 20px;">Add</button>
+                    </div>
+
+                    <div class="flex relative pb-12">
+                        <div class="h-full w-10 absolute inset-0 flex items-center justify-end">
+                            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                        </div>
+                        <div
+                            class="flex-shrink-0 w-20 h-20 rounded-full bg-green-600 inline-flex items-center justify-center text-white relative z-10">
+                            <i class="fas fa-fingerprint" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="flex-grow pl-4">
+                            <h2
+                                class="font-medium title-font text-3xl text-gray-900 mb-1 tracking-wider d-flex justify-content-start">
+                                Biometric Authentication</h2>
+                            <p class="leading-relaxed d-flex justify-content-start">VHS cornhole pop-up, try-hard 8-bit
+                                iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+
+                        </div>
+                        <button class="btn btn-primary d-flex justify-content-xl-end" id="ba" onclick="add4()" style="margin: 20px;">Add</button>
+                    </div>
+
+                    <div class="flex relative">
+                        <div
+                            class="flex-shrink-0 w-20 h-20 rounded-full bg-indigo-600 inline-flex items-center justify-center text-white relative z-10">
+                            <i class="fas fa-hands-helping" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="flex-grow pl-4">
+                            <h2
+                                class="font-medium title-font text-3xl text-gray-900 mb-1 tracking-wider d-flex justify-content-start">
+                                Voice Assistant</h2>
+                            <p class="leading-relaxed d-flex justify-content-start">Pitchfork ugh tattooed scenester
+                                echo park gastropub whatever cold-pressed retro.</p>
+                        </div>
+                        <button class="btn btn-primary d-flex justify-content-xl-end" id="va" onclick="add5()" style="margin: 20px;">Add</button>
+                    </div>
+
+                </center>
+            </div>
+
+        </section>
+
+        <!--Display-->
+        <div class="container">
+            <p id="display"></p>
+        </div>
     </div>
+
+
+
+
+    
 
     <div class="main">
         <div class="share">
