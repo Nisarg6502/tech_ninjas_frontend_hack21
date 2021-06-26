@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Watches</title>
-    <script src="script.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" />
@@ -14,7 +13,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--Arbutus Font-->
     <link href='https://fonts.googleapis.com/css?family=Arbutus' rel='stylesheet'>
-    <link href='kronos_watches_page.css' rel='stylesheet'>
+    <link rel="stylesheet" href="kronos_watches_page.css">
     <title>Landing Page</title>
 </head>
 
@@ -94,53 +93,53 @@
 
                 <!--Sign Up-->
                 <!-- <li class="nav-item"> -->
-                <div class="col-md-auto col-sm-auto col-auto" style="margin: 1vw;">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#SignupModal">
-                        Sign Up
-                    </button>
+                    <div class="col-md-auto col-sm-auto col-auto" style="margin: 1vw;">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#SignupModal">
+                            Sign Up
+                        </button>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header text-light bg1">
-                                    <h5 class="modal-title" id="SignupModalLabel">Sign Up</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body text-light bg1">
-                                    <form>
-                                        <div class="mb-3">
-                                            <label for="exampleInputEmail1" class="form-label">Email
-                                                address</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail2"
-                                                aria-describedby="emailHelp">
-                                            <div id="emailHelp2" class="form-text">We'll never share your email
-                                                with anyone else.</div>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword2">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="exampleInputPassword1" class="form-label">Confirm
-                                                Password</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword3">
-                                        </div>
-                                        <button type="submit" class="btn btn-primary"
-                                            data-bs-dismiss="modal">Submit</button>
-                                    </form>
-                                </div>
-                                <div class="modal-footer text-light bg1">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header text-light bg1">
+                                        <h5 class="modal-title" id="SignupModalLabel">Sign Up</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-light bg1">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Email
+                                                    address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail2"
+                                                    aria-describedby="emailHelp">
+                                                <div id="emailHelp2" class="form-text">We'll never share your email
+                                                    with anyone else.</div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword2">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Confirm
+                                                    Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword3">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Submit</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer text-light bg1">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 <!-- </li> -->
 
             </div>
@@ -230,178 +229,337 @@
         </button>
     </div>
 
+
     <!--CARDS-->
     <div class="container px-4 py-5" id="hanging-icons">
-        <center>
-            <h2 class="pb-2 border-bottom">Classic Watches</h2>
-        </center>
+      <center>
+          <h2 class="pb-2 border-bottom">Luxury Watches</h2>
+      </center>
 
-        <div class="album py-5 bg-light">
-            <div class="container">
+      <div class="album py-5 bg-light">
+          <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="Images\Card1.jpg">
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card1.jpg">
 
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="Images\Card2.png">
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card2.jpg">
 
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="Images\Card3.jpg">
-                        
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card3.jpg">
 
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="Images\Card4.jpg">
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
 
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="Images\Card5.jpg">
-                            
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="Images\Card6.jpg">
 
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="Images\Card7.jpeg">
-                    
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="Images\Card8.jpg">
-                            
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="Images\Card9.jpg">
-                            
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+              </div>
+          </div>
+      </div>
 
-    </div>
+      <center>
+          <h2 class="pb-2 border-bottom">Smart Watches</h2>
+      </center>
+      <div class="album py-5 bg-light">
+          <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-    <!--FOOTER-->
+
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card4.jpg">
+
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card5.jpg">
+
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card6.jpg">
+
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+              </div>
+          </div>
+      </div>
+
+      <center>
+          <h2 class="pb-2 border-bottom">Vintage Watches</h2>
+      </center>
+      <div class="album py-5 bg-light">
+          <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card7.jpg">
+
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card8.jpg">
+
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card9.jpg">
+
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+
+              </div>
+          </div>
+      </div>
+
+      <center>
+          <h2 class="pb-2 border-bottom">Watches for Women</h2>
+      </center>
+      <div class="album py-5 bg-light">
+          <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card10.jpeg">
+
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card11.jpeg">
+
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card12.jpeg">
+
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+
+              </div>
+          </div>
+      </div>
+
+      <center>
+          <h2 class="pb-2 border-bottom">Watches for kids</h2>
+      </center>
+      <div class="album py-5 bg-light">
+          <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card13.jpg">
+
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card14.jpg">
+
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card shadow-sm">
+                          <img src="Images/Card15.jpg">
+
+                          <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural
+                                  lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                  </div>
+                                  <small class="text-muted">9 mins</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+
     <div class="main">
         <div class="share">
             <br><br>
