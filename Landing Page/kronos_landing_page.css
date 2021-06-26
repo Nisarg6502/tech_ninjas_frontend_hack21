@@ -1,9 +1,20 @@
 .navbar{
     background-color: transparent;
+    z-index: 9;
 }
 .navbar:hover{
-    background-color: white;
-
+    background-color: rgba(255, 255, 255, 0.582);
+}
+.brand{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  
+    display: block;
+}
+#carouselExampleCaptions{
+    position:absolute;
+  width:100%;
+  top:0;
 }
 .btn1:hover{
     color: blueviolet;
@@ -14,7 +25,49 @@
 /* body{
     background-color: tomato;
 } */
-
+.descandfeat{
+    margin-top: 35rem;
+}
+@media screen and (max-width:1500px) {
+    .descandfeat{
+    margin-top: 45rem;
+    }
+}
+@media screen and (max-width:1300px) {
+    .descandfeat{
+    margin-top: 40rem;
+    }
+}
+@media screen and (max-width:1200px) {
+    .descandfeat{
+    margin-top: 35rem;
+    }
+}
+@media screen and (max-width:1100px) {
+    .descandfeat{
+    margin-top: 32rem;
+    }
+}
+@media screen and (max-width:1000px) {
+    .descandfeat{
+    margin-top: 30rem;
+    }
+}
+@media screen and (max-width:800px) {
+    .descandfeat{
+    margin-top: 25rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .descandfeat{
+    margin-top: 20rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .descandfeat{
+    margin-top: 10rem;
+    }
+}
 .share {
     font-size: large;
     text-align: center;
