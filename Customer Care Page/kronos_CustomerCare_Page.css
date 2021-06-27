@@ -30,3 +30,9 @@ background: #e2e6eea8;
 box-shadow: inset 10px 10px 18px #b5b5b557,
             inset -10px -10px 18px #ffffff;
 }
+.btn {
+    margin: 7px;
+    border: none;
+    border-radius: 100px;
+    background-color:rgba(240, 182, 106, 0.911) ;
+}

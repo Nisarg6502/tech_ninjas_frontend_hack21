@@ -39,123 +39,118 @@
                     <li class="nav-item">
                         <a class="nav-link mt-1" style="font-size: 1.5rem;" aria-current="page" href="#">Watches</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link mt-1" style="font-size: 1.5rem;" aria-current="page"
+                            href="../Customizations Page/Customizations.html">Customer Care</a>
+                    </li>
                 </ul>
                 <a class="navbar-brand brand d-flex justify-content-center"><img
                         src="Images\KRONOS_logo-removebg-preview-removebg-preview.png" alt="Logo" /></a>
                 <!--Login-->
-                <!-- <li class="nav-item"> -->
-                <div class="col-md-auto col-sm-auto col-auto" style="margin: 1vw;">
-                    <!-- Button trigger modal -->
+               
+                
                     <button style="background-color: rgba(231, 195, 78, 0.76);" type="button" class="btn btn1"
                         data-bs-toggle="modal" data-bs-target="#LoginModal">
                         Login
                     </button>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header text-dark bg1">
-                                    <h5 class="modal-title" id="LoginModalLabel">Login</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body text-dark bg1">
-                                    <!--Form-->
-                                    <form>
-                                        <div class="mb-3">
-                                            <label for="exampleInputEmail1" class="form-label">Email
-                                                address</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                                aria-describedby="emailHelp">
-                                            <div id="emailHelp" class="form-text">We'll never share your email
-                                                with anyone else.</div>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword1">
-                                        </div>
-                                        <div class="mb-3 form-check">
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                            <label class="form-check-label" for="exampleCheck1">Check me
-                                                out</label>
-                                        </div>
-                                        <button type="submit" class="btn btn-primary"
-                                            data-bs-dismiss="modal">Submit</button>
-                                    </form>
-                                </div>
-                                <div class="modal-footer text-dark bg1">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- </li> -->
+                    <!--Sign Up-->
+                    
+                        <!-- Button trigger modal -->
+                        <button style="background-color: rgba(231, 195, 78, 0.76);" type="button" class="btn btn1"
+                            data-bs-toggle="modal" data-bs-target="#SignupModal">
+                            Sign Up
+                        </button>
 
-                <!--Sign Up-->
-                <!-- <li class="nav-item"> -->
-                <div class="col-md-auto col-sm-auto col-auto" style="margin: 1vw;">
-                    <!-- Button trigger modal -->
-                    <button style="background-color: #d4a469b6" type="button" class="btn btn1" data-bs-toggle="modal"
-                        data-bs-target="#SignupModal">
-                        Sign Up
-                    </button>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header text-light bg1">
-                                    <h5 class="modal-title" id="SignupModalLabel">Sign Up</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body text-light bg1">
-                                    <form>
-                                        <div class="mb-3">
-                                            <label for="exampleInputEmail1" class="form-label">Email
-                                                address</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail2"
-                                                aria-describedby="emailHelp">
-                                            <div id="emailHelp2" class="form-text">We'll never share your email
-                                                with anyone else.</div>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword2">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="exampleInputPassword1" class="form-label">Confirm
-                                                Password</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword3">
-                                        </div>
-                                        <button type="submit" class="btn btn-primary"
-                                            data-bs-dismiss="modal">Submit</button>
-                                    </form>
-                                </div>
-                                <div class="modal-footer text-light bg1">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <!-- </li> -->
+                <i class="fa fa-duotone fa-cart-plus" style="font-size:3rem;"></i>
 
             </div>
-            <i class="fa fa-duotone fa-cart-plus" style="font-size:3rem;"></i>
-
-        </div>
     </nav>
+
+
 
     <video autoplay muted loop id="myVideo">
         <source src="Video\YouCut_20210626_232227336[1].mp4" type="video/mp4">
     </video>
+
+    <!--LogIn Modal -->
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-dark bg1">
+                    <h5 class="modal-title" id="LoginModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-dark bg1">
+                    <!--Form-->
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email
+                                address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email
+                                with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me
+                                out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer text-dark bg1">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--SignUp Modal -->
+    <div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-dark bg1">
+                    <h5 class="modal-title" id="SignupModalLabel">Sign Up</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-dark bg1">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email
+                                address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail2"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp2" class="form-text">We'll never share your email
+                                with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword2">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Confirm
+                                Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword3">
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer text-dark bg1">
+                    <button type="button" class="btn btn-secondary"
+                        data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
     <!--CARDS-->
     <div class="container smort px-4 py-5" id="hanging-icons">
@@ -490,7 +485,7 @@
             <h2>Filter</h2>
         </center>
         <div class="container d-flex justify-content-center">
-            <button style="background-color: rgb(190, 174, 81);" onclick="filter2()" class="btn">$200-$300</button>
+            <button style="background-color: gold;" onclick="filter2()" class="btn">$200-$300</button>
             <button style="background-color: gold;" onclick="filter1()" class="btn">$100-$200</button>
             <button style="background-color: gold;" onclick="filter3()" class="btn">$250-$350</button>
             <button style="background-color: gold;" onclick="filter4()" class="btn">$300-$400</button>
